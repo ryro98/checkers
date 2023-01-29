@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 102px;
+    text-align: center;
+}
+
+td.jasne {
+    background-image: url("./jpg/jasne.jpg");
+}
+
+td.ciemne {
+    background-image: url("./jpg/ciemne.jpg");
+}
+
+#pole {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    border: solid 5px black;
+    text-align: center;
+}
